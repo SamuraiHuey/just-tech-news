@@ -16,4 +16,3 @@ sequelize.sync({ force: false }).then(() => {
   app.listen(PORT, () => console.log('Now listening'));
 });
 
-//stopped at 13.5.4 right after dropping the table 
